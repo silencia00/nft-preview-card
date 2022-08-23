@@ -1,0 +1,172 @@
+/* font-family: 'Outfit',
+sans-serif; */
+/* - Very dark blue (main BG): hsl(216, 50%, 16%)
+ - Very dark blue (card BG): hsl(216, 50%, 16%)
+  - Very dark blue (line): hsl(215, 32%, 27%)
+   - White: hsl(0, 0%, 100%) */
+/* - Soft blue: hsl(215, 51%, 70%)
+    - Cyan: hsl(178, 100%, 50%) */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.card-container {
+  padding: 1em;
+  background: hsl(215, 32%, 27%);
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+  border-radius: 1.5em;
+}
+body {
+  background: hsl(216, 50%, 16%);
+  padding: 6em 3em;
+}
+.image-equi img {
+  width: 100%;
+  padding: 1em;
+  border-radius: 8%;
+  margin-bottom: 1em;
+}
+.card-text {
+  padding: 0 2em;
+}
+h3 {
+  font-size: 1.5em;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 0.75em;
+}
+.text {
+  line-height: 1.5em;
+  font-size: 18px;
+  margin-bottom: 1em;
+  color: grey;
+}
+.card-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  margin-bottom: 2em;
+}
+.eth {
+  display: flex;
+  gap: 0.5em;
+  color: hsl(178, 100%, 50%);
+}
+.clock {
+  display: flex;
+  gap: 0.5em;
+  color: grey;
+}
+.underline {
+  border-bottom: 2px solid grey;
+  margin-bottom: 1em;
+}
+.image-avat {
+  display: flex;
+  align-items: center;
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+.image-avat img {
+  display: flex;
+  scale: 0.3;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+.image-avat p {
+  display: flex;
+  font-size: 1.2em;
+  color: grey;
+}
+span {
+  color: white;
+}
+@media screen and (min-width: 996px) {
+  .card-container {
+    padding: 1em;
+    background: hsl(215, 32%, 27%);
+    width: 100%;
+    font-family: "Outfit", sans-serif;
+    border-radius: 1.5em;
+  }
+
+  body {
+    background: hsl(216, 50%, 16%);
+    padding: 5em 30em;
+  }
+
+  .image-equi img {
+    width: 100%;
+    padding: 1em;
+    border-radius: 8%;
+    margin-bottom: 1em;
+  }
+
+  .card-text {
+    padding: 0 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 0.75em;
+  }
+
+  .text {
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-bottom: 1em;
+    color: grey;
+  }
+
+  .card-numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    margin-bottom: 2em;
+  }
+
+  .eth {
+    display: flex;
+    gap: 0.5em;
+    color: hsl(178, 100%, 50%);
+  }
+
+  .clock {
+    display: flex;
+    gap: 0.5em;
+    color: grey;
+  }
+
+  .underline {
+    border-bottom: 2px solid grey;
+    margin-bottom: 1em;
+  }
+
+  .image-avat {
+    display: flex;
+    align-items: center;
+    margin-top: -2em;
+    margin-bottom: -2em;
+  }
+
+  .image-avat img {
+    display: flex;
+    scale: 0.4;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  .image-avat p {
+    display: flex;
+    font-size: 1.2em;
+    color: grey;
+  }
+
+  span {
+    color: white;
+  }
+}
